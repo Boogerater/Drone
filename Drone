@@ -2,7 +2,7 @@ from djitellopy import tello
 from time import sleep
 
 so = tello.Tello()
-so.hi()
+so.connect()
 print(so.get_battery())
 #Takeoff
 so.takeoff(180)
