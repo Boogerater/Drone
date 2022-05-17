@@ -43,11 +43,11 @@ so.move_up(30)
 sleep(0.25)
 
 #Return
-so.move_forward(282.8)
+so.move_forward(282)
 sleep(1)
 so.flip_forward()
 sleep(0.25)
-so.move_forward(282.8)
+so.move_forward(283)
 sleep(0.25)
 so.rotate_counter_clockwise(180)
 sleep(1)
