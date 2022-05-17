@@ -5,7 +5,8 @@ so = tello.Tello()
 so.connect()
 print(so.get_battery())
 #Takeoff
-so.takeoff(180)
+so.takeoff()
+so.move_up(120)
 sleep(0.25)
 
 #Get to destination
